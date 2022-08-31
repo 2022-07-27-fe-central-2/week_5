@@ -1,0 +1,43 @@
+OOP
+
+classes: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes
+
+***
+Abstraction
+***
+Encapsulation
+***
+
+ABSTRACTION	VS ENCAPSULATION
+1.	Abstraction is the process or method of gaining the information. \/	While encapsulation is the process or method to contain the information.
+2.	In abstraction, problems are solved at the design or interface level. \/	While in encapsulation, problems are solved at the implementation level.
+3.	Abstraction is the method of hiding the unwanted information. \/	Whereas encapsulation is a method to hide the data in a single entity or unit along with a method to protect information from outside.
+4.	We can implement abstraction using abstract class and interfaces.	\/ Whereas encapsulation can be implemented using by access modifier i.e. private, protected and public.
+5.	In abstraction, implementation complexities are hidden using abstract classes and interfaces. \/	While in encapsulation, the data is hidden using methods of getters and setters.
+6.	The objects that help to perform abstraction are encapsulated.	\/ Whereas the objects that result in encapsulation need not be abstracted.
+
+private class features: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/Private_class_fields
+Only the class which defines the private static field can access the field.
+i.e instances do not have access to private members, properties/methods
+
+static feature: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/static
+Static members (properties and methods) are called without instantiating their class and cannot be called through a class instance, only called from the constructor function
+i.e static properties are shared by all instances of the class and don't belong to any one instance
+
+***
+Inheritance
+***
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain
+https://www.programiz.com/javascript/inheritance
+
+***
+Polymorphism
+***
+same function with different signatures is called many times
+
+adhoc : function overloading/ coercion
+parametric: related to parameters
+subtype: creating derivative objects, * this is usually what is being referred to when describing polymorphism in js (inheritance polymorphism)
+
+https://zellwk.com/blog/polymorphism-javascript/
+https://www.geeksforgeeks.org/polymorphism-in-javascript/
