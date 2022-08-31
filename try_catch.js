@@ -13,7 +13,6 @@
 //   }
 // })
 
-
 try {
   // throw new Error('In try block but failed, so throwing error')
   console.log('try block executed')
