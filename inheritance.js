@@ -1,6 +1,6 @@
 class Make {
   constructor(make) {
-    // console.log('constructor invoked')
+    console.log('constructor invoked')
     this.make = make
   }
   getMake() {
@@ -18,8 +18,9 @@ class Model extends Make{
   }
 }
 
-const car1 = new Make('Ford')
-car1.getMake()
+// const car1 = new Make('Ford')
+// car1.getMake()
+
 const car2 = new Model('Ford', 'Mustang')
 car2.getMake()
 car2.getModel()

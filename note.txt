@@ -41,3 +41,6 @@ subtype: creating derivative objects, * this is usually what is being referred t
 
 https://zellwk.com/blog/polymorphism-javascript/
 https://www.geeksforgeeks.org/polymorphism-in-javascript/
+
+big O natation:
+https://www.geeksforgeeks.org/analysis-algorithms-big-o-analysis/

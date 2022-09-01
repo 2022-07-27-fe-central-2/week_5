@@ -14,8 +14,8 @@
 // })
 
 try {
-  // throw new Error('In try block but failed, so throwing error')
-  console.log('try block executed')
+  throw new Error('In try block but failed, so throwing error')
+  // console.log('try block executed')
 }
 catch (err) {
   console.log(`in catch block, error message: \n ${err}`)

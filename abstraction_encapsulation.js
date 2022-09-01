@@ -11,6 +11,7 @@ class CoffeeMaker {
 
     // boil water
     console.log(`starting water temp: ${this.#temp} degrees`)
+
     this.#boilWater()
     setTimeout(() => {
       console.log(`finished boiling water, temp: ${this.#temp}`)
